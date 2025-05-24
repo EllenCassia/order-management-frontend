@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Desafio Técnico - Order Management Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido como parte de um desafio, apresentando uma aplicação web (frontend) integrada ao backend proposto no desafio em **Refactor PedidoService** . O objetivo principal da aplicação é permitir a visualização e o gerenciamento de pedidos, itens e clientes.
 
-## Available Scripts
+Siga as instruções abaixo para configurar e executar o projeto em seu ambiente local.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Instruções de Instalação  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1️⃣ Pré-requisitos  
+Certifique-se de que seu ambiente possui os seguintes softwares instalados:  
+- **Node.js** (versão 16 ou superior)  
+- **npm** (gerenciador de pacotes do Node.js)  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2️⃣ Clone o repositório  
 
-### `npm test`
+```bash
+git clone <URL_DO_REPOSITORIO_AQUI>
+```
+Ou faça o download do arquivo ZIP e extraia-o em seu computador.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3️⃣ Instale as dependências
+```bash
+npm install
+```
 
-### `npm run build`
+### 4️⃣ Execute o projeto
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🌐 Acesso à Aplicação
+Após a execução bem-sucedida do projeto, acesse a aplicação no seu navegador preferido através do seguinte endereço: http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Funcionalidades  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1️⃣ Tela inicial  
+- Ao acessar a aplicação, insira as credenciais:
+```bash
+username: admin
+password: admin
+```
+e clique em **Entrar** para ser redirecionado à página inicial (Home).
 
-### `npm run eject`
+### 2️⃣ Gerenciamento de Clientes  
+- Acesse a aba **Clientes** no menu superior para visualizar a lista de clientes cadastrados.  
+- Clique em **Filter by email** para filtrar clientes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3️⃣ Gerenciamento de Produtos/Itens  
+- Acesse a aba **Produtos** no menu superior para visualizar a lista de itens cadastrados.  
+- Utilize o campo de **filtro por nome** para pesquisar itens. (*Nota: o filtro é por letras correspondentes, não por ordem alfabética*).  
+- Clique no card de um item para visualizar seus detalhes.  
+- Nos detalhes, será exibido um modal com opções adicionais, incluindo a possibilidade de deletar e editar o item.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4️⃣ Gerenciamento de Pedidos  
+- Acesse a aba **Pedidos** no menu superior para visualizar uma tabela com todos os pedidos cadastrados.  
+- Clique em **Criar pedido** para adicionar um novo pedido.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 5️⃣ Chat  
+- Acesse a aba **Chat** no menu superior para conversar com um chat a respeito do software.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## ⚠️ Observações  
+- Certifique-se de que o **Node.js** e o **npm** estão instalados no seu sistema antes de iniciar o processo de instalação.  
+- Caso encontre problemas ou tenha dúvidas, consulte a documentação ou entre em contato.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔗 Links adicionais  
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Repositório do backend**: <URL_DO_BACKEND_AQUI>
+ 
+- **Tecnologias utilizadas**:  
+  - **Frontend**: React, MaterialUI  
+  - **Backend**: Spring Boot, Java
