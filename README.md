@@ -70,7 +70,7 @@ e clique em **Entrar** para ser redirecionado à página inicial (Home).
 
 ## 🔗 Links adicionais  
 
-- **Repositório do backend**: <URL_DO_BACKEND_AQUI>
+- **Repositório do backend**: [https://github.com/seu-usuario/seu-frontend-repositorio](https://github.com/EllenCassia/msorder.git)
  
 - **Tecnologias utilizadas**:  
   - **Frontend**: React, MaterialUI  
